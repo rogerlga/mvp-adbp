@@ -28,7 +28,7 @@ As hipóteses levantadas para o problema são:
 
 - Existe correlação entre as variáveis, de forma que futuramente poderemos predizer um atributo target a partir dos demais;
 - Não há dados anômalos suficientes na indústria, o que dificulta treinos supervisionados para detecção de anomalias;
-- É possível distinguir diferentes perfis operacionais através dos dados, visando futuramente treinar um modelo que faça a classificação automática desses perfis.
+- É possível distinguir diferentes perfis operacionais através dos dados, visando futuramente treinar um modelo que faça a clusterização automática desses perfis.
 
 ## Objetivos
 
@@ -36,4 +36,4 @@ Os objetivos desse estudo vão permear em torno de **preparar o dataset para**:
 
 - Treinar um modelo **supervisionado** que preveja os valores de temperatura de exaustão da turbina a partir das demais tags (em condição normal), visando comparar valores reais com as predições, o que dará um indicativo da eficiência do equipamento;
 - Treinar um modelo **não supervisionado** que detecte os períodos em que o equipamento está apresentando comportamento anômalo (pré-falha). A base de dados será o período sabido como "normal", não havendo rótulos de anomalias. Serão considerados anômalos os comportamentos diferentes daqueles aprendidos como "normais";
-- Treinar um modelo **nâo supervisionado** para classificação automática dos distintos perfis operacionais, como operação com gás, operação com diesel, turbina em carga base, em carga parcial, partida, parada, etc.
+- Treinar um modelo **nâo supervisionado** para agrupamento/clusterização automática dos distintos perfis operacionais, como operação com gás, operação com diesel, turbina em carga base, em carga parcial, partida, parada, etc.
